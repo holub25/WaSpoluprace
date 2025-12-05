@@ -45,6 +45,9 @@ a.icon {
 .sec1 {
   background: url("scott-goodwill.jpg") 50% 50%;
 }
+.sec2{
+  
+}
 
 .container-text {
   width: 340px;
@@ -57,6 +60,10 @@ a.icon {
 h1 {
   font-size: 76px;
   color: white
+}
+.title{
+  font-size: 30px;
+  color: black;
 }
 
 @media screen and (width <=768px) {
