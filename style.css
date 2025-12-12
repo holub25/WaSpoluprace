@@ -4,7 +4,7 @@ body {
 }
 
 .container {
-  width: 1440px;
+  width: auto;
   margin: 0 auto;
   position: relative;
   border: 1px solid red;
@@ -12,20 +12,22 @@ body {
 
 /* */
 section.container {
-  min-height: 963px
+  min-height: 100vh;
 }
 
 .topnav {
   display: flex;
-  min-height: 30px;
+  min-height: 80px;
   background: #33292a;
-  justify-content: center
+  justify-content: center;
+  align-items: center;
+  color: white;
+  gap:70px;
 }
 
 .topnav li {
   list-style-type: none;
-  font-size: 30px;
-  border-right: 1px solid blue;
+  font-size: 25px;
   padding: 0 5px
 }
 
@@ -44,9 +46,29 @@ a.icon {
 
 .sec1 {
   background: url("scott-goodwill.jpg") 50% 50%;
+  background-size: cover;
 }
 .sec2{
   
+}
+.about-us{
+  width: 100%;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.about-us-img{
+  width: 30%;
+  height: 300px;
+  background: url("about-us.jpg") 50% 50%;
+  background-position: center;
+  background-size: cover;
+}
+.about-us-text{
+  width: 30%;
+  height: fit-content;
 }
 
 .container-text {
