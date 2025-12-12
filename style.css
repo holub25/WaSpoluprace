@@ -66,6 +66,34 @@ h1 {
   color: black;
 }
 
+.about-container{
+  margin: auto;
+  width: 55%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-main{
+  background-color: #2d2424;
+  text-align: center;
+  width: 100%;
+  height: 500px;
+}
+
+.about-title{
+  font-size: 50px;
+  color: white;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.about-paragraph{
+  font-size: 15px;
+  color: white;
+}
+
 @media screen and (width <=768px) {
 
   /* w:390px */
