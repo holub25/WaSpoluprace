@@ -61,6 +61,7 @@ a.icon {
   align-items: center;
   justify-content: center;
   gap: 20px;
+  padding: 5px;
 }
 
 .about-us-img {
