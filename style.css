@@ -10,10 +10,6 @@ body {
   border: 1px solid red;
 }
 
-/* */
-section.container {
-  min-height: 100vh;
-}
 
 .topnav {
   display: flex;
@@ -22,7 +18,7 @@ section.container {
   justify-content: center;
   align-items: center;
   color: white;
-  gap:70px;
+  gap: 100px;
 }
 
 .topnav li {
@@ -47,11 +43,18 @@ a.icon {
 .sec1 {
   background: url("scott-goodwill.jpg") 50% 50%;
   background-size: cover;
+  min-height: 100vh;
 }
-.sec2{
-  
+
+.sec2 {
+  height: 500px;
+  display: flex;
+  align-items: center
 }
-.about-us{
+
+
+
+.about-us {
   width: 100%;
   height: 400px;
   display: flex;
@@ -59,15 +62,17 @@ a.icon {
   justify-content: center;
   gap: 20px;
 }
-.about-us-img{
-  width: 30%;
+
+.about-us-img {
+  width: 20%;
   height: 300px;
   background: url("about-us.jpg") 50% 50%;
   background-position: center;
   background-size: cover;
 }
-.about-us-text{
-  width: 30%;
+
+.about-us-text {
+  width: 20%;
   height: fit-content;
 }
 
@@ -83,38 +88,104 @@ h1 {
   font-size: 76px;
   color: white
 }
-.title{
+
+.title {
   font-size: 30px;
   color: black;
 }
 
-.about-container{
+.about-container {
   margin: auto;
   width: 55%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding-top: 50px;
 }
 
-.about-main{
+.about-main {
   background-color: #2d2424;
   text-align: center;
   width: 100%;
   height: 500px;
 }
 
-.about-title{
+.about-title {
   font-size: 50px;
   color: white;
   margin-top: 10px;
   margin-bottom: 10px;
 }
 
-.about-paragraph{
+.about-paragraph {
   font-size: 15px;
   color: white;
 }
+
+.sec4 {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.images-container{
+  width: 780px;
+  height: fit-content;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  text-align: center;
+  gap: 15px;
+}
+
+.image1 {
+  background: url(alexey-fedenkov-BaCZYH9RLmQ-unsplash.jpg) 50% 50%;
+}
+
+.image2 {
+  background: url(anneliese-phillips-uv4-vl3liKM-unsplash.jpg) 50% 50%;
+  
+}
+
+.image3 {
+  background: url(charles-black-F7HGqkkMYAU-unsplash.jpg) 50% 50%;
+}
+
+.image4 {
+  background: url(chung-yee-tsang-wqxCKM0R6R8-unsplash.jpg) 50% 50%;
+}
+
+.image5 {
+  background-color: lightgray;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.image6 {
+  background: url(holly-mandarich-UVyOfX3v0Ls-unsplash.jpg) 50% 50%;
+}
+
+.image7 {
+  background: url(james-wheeler-ZOA-cqKuJAA-unsplash.jpg) 50% 50%;
+}
+
+.image8 {
+  background: url(jeffrey-keenan-pUhxoSapPFA-unsplash.jpg) 50% 50%;
+}
+
+.image9 {
+  background: url(julian-bialowas-ilkTnuMunP8-unsplash.jpg) 50% 50%;
+}
+
+.image {
+  width: 250px;
+  height: 200px;
+  line-height: 200px;
+  background-size: cover;
+}
+
 
 @media screen and (width <=768px) {
 
