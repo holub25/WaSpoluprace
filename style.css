@@ -597,17 +597,50 @@ body::after {
     border-radius: 5px;
   }
 
-  .sekce6 {
-    display: none;
+  
+  .reviews-title {
+    font-size: 60px; 
+    margin-bottom: 20px;
   }
 
+  .reviews-intro {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 80px;
+    
+  }
+
+  .reviews-cards {
+    gap: 40px; 
+  }
+
+  
+
+  .review-img {
+    width: 150px; 
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 30px;
+  }
+
+  .review-name {
+    font-size: 18px;
+  }
+
+
   .footer-grid {
-    display: none;
+    grid-template-rows: repeat(2, 350px);
+    height: auto;
   }
 
   .site-footer {
-    display: none;
+    padding: 50px 0;
   }
+
+
+
+
+  
 
 
 }
