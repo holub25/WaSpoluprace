@@ -2,6 +2,7 @@ body {
   margin: 0;
   font-size: 16px;
   font-family: 'Roboto', sans-serif;
+  padding-top: 80px;
 }
 
 .container {
@@ -19,6 +20,17 @@ body {
   align-items: center;
   color: white;
   gap: clamp(20px, 8vw, 100px);;
+  position: fixed;
+  width: 100%;
+}
+nav.container{
+  width: 100%;
+  margin: 0 auto;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  background: #33292a;
 }
 
 .topnav li {
