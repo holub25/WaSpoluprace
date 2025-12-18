@@ -628,9 +628,6 @@ body::after {
   a.icon {
     display: block
   }
-  .sekce5, .sekce6, .footer-grid, .site-footer {
-    display: none;
-  }
   
   nav a.icon {
     font-size: 40px; 
@@ -718,7 +715,91 @@ body::after {
     font-size: clamp(15px, 7vw, 28px); 
   }
 
-  
+  .contact-main {
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .contact-container-title {
+    max-width: none;
+    width: 100%;
+  }
+
+  .contact-title {
+    font-size: clamp(30px, 10vw, 50px); 
+  }
+  .contact-text-button {
+    width: 100%;
+    max-width: none;
+    padding-top: 0;
+  }
+
+  .contact-paragraph {
+    font-size: clamp(12px, 8vw, 16px);
+  }
+
+  .contact-btn {
+    padding: 15px 35px;
+    font-size: clamp(10px, 6vw, 16px);
+    margin-top: 10px;
+  }
+  .sekce6 {
+    padding: 60px 0;
+  }
+
+  .reviews-title {
+    font-size: clamp(30px, 10vw, 45px);
+  }
+
+  .reviews-intro {
+    font-size: clamp(13px, 4vw, 16px);
+  }
+
+  .reviews-cards {
+    flex-direction: column;
+    gap: 60px; 
+  }
+
+  .review-card {
+    width: 100%;
+    max-width: none;
+  }
+
+  .review-img {
+    width: 120px; 
+    height: 120px;
+  }
+
+  .review-text {
+    font-size: clamp(13px, 4vw, 15px);
+  }
+
+  .review-name {
+    font-size: clamp(14px, 4vw, 16px);
+  }
+
+  .footer-grid {
+    display: flex;
+    flex-direction: column; 
+  }
+
+  .footer-img {
+    height: clamp(200px, 70vw, 350px); 
+  }
+
+  .site-footer {
+    padding: 40px 0;
+  }
+
+  .footer-link {
+    font-size: clamp(14px, 6vw, 18px);
+  }
+
+  .footer-info {
+    font-size: clamp(8px, 6vw, 13px);
+    text-align: center;
+  }
+
 }
 
 }
