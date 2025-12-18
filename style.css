@@ -628,7 +628,7 @@ body::after {
   a.icon {
     display: block
   }
-  .sekce3, .sekce4, .sekce5, .sekce6, .footer-grid, .site-footer {
+  .sekce5, .sekce6, .footer-grid, .site-footer {
     display: none;
   }
   
@@ -672,6 +672,50 @@ body::after {
   .about-us-img {
     width: 100%; 
     height: clamp(250px, 60vw, 300px);
+  }
+
+  .about-title {
+    font-size: clamp(30px, 10vw, 40px); 
+  }
+
+  .about-paragraph {
+    font-size: clamp(13px, 5vw, 16px);
+  }
+
+  .about-icons {
+    flex-direction: column;
+    gap: clamp(20px, 8vw, 40px);
+
+  }
+
+  .icon {
+    width: clamp(20px, 25vw, 80px);
+    margin-bottom: clamp(5px, 5vw, 10px)  ;
+  }
+
+  .icon-text {
+    font-size: clamp(15px, 8vw, 24px); 
+  }
+  .sekce4 {
+    padding: 30px 0;
+  }
+
+  .grid {
+    display: flex;
+    flex-direction: column; 
+    gap: 15px; 
+  }
+
+  .trip-item, .trip-center {
+    height: clamp(200px, 60vw, 300px); 
+  }
+
+  .trip-center {
+    height: 100px;
+  }
+
+  .trip-center h2 {
+    font-size: clamp(15px, 7vw, 28px); 
   }
 
   
