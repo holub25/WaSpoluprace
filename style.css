@@ -478,12 +478,12 @@ body::after {
   }
 
   .sec2 {
-    padding: 80px 0; 
+    padding: 80px 0;
   }
 
   .about-us {
     gap: 20px;
-    width: 90%; 
+    width: 90%;
     max-width: 800px;
     margin: 0 auto;
   }
@@ -505,22 +505,96 @@ body::after {
 
 
   .about-us-img {
-    width: 40%; 
-    height: 550px; 
+    width: 40%;
+    height: 550px;
   }
 
-  
 
-  .sekce3 {
-    display: none;
+  .about-main {
+    height: auto;
   }
 
-  .sekce4 {
-    display: none;
+  .about-texts {
+    width: 85%;
+    max-width: 700px;
+    margin: 0 auto 60px auto;
   }
 
-  .sekce5 {
-    display: none;
+  .about-title {
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+
+  .about-paragraph {
+    font-size: 16px;
+    line-height: 1.6;
+  }
+
+  .about-icons {
+    width: 90%;
+    max-width: 800px;
+  }
+
+  .about-icons div {
+    flex: 1;
+  }
+
+  .icon {
+    width: 60px;
+  }
+
+  .icon-text {
+    font-size: 35px;
+  }
+
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 350px; 
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .trip-item, .trip-center {
+    height: 100%;
+    border-radius: 5px;
+  }
+
+  .trip-center {
+    padding: 20px;
+  }
+
+  .trip-center h2 {
+    font-size: 55px;
+    font-weight: bold;
+    line-height: 1.5; 
+  }
+
+  .contact-main {
+    width: 90%;
+    max-width: 1000px;
+  }
+
+  .contact-title {
+    font-size: 80px; 
+    line-height: 1;
+    font-weight: bold;
+  }
+
+  .contact-text-button {
+    padding-top: 20px;
+  }
+
+  .contact-paragraph {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 30px;
+  }
+
+  .contact-btn {
+    margin-top: 40px;
+    border-radius: 5px;
   }
 
   .sekce6 {
