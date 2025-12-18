@@ -15,12 +15,12 @@
 
 <body>
   <nav class="container">
-    <div class="topnav">
-      <li><a href="#about">About Us</a></li>
-      <li><a href="#whatWeDo">What We Do</a></li>
-      <li><a href="#ourTrips">Our Trips</a></li>
-      <li><a href="#contact">Where to go</a></li>
-      <li><a href="#reviews">Reviews</a></li>
+    <div class="topnav" id="myTopnav">
+      <li><a href="#about" onclick="myFunction()">About Us</a></li>
+      <li><a href="#whatWeDo" onclick="myFunction()">What We Do</a></li>
+      <li><a href="#ourTrips" onclick="myFunction()">Our Trips</a></li>
+      <li><a href="#contact" onclick="myFunction()">Where to go</a></li>
+      <li><a href="#reviews" onclick="myFunction()">Reviews</a></li>
 
 
     </div>
@@ -189,7 +189,7 @@
     </div>
   </section>
 
-  <section class="footer-gallery">
+  <section class="container">
     <div class="footer-grid">
       <div class="img1 footer-img "></div>
       <div class="img2 footer-img "></div>
@@ -204,6 +204,12 @@
       <p class="footer-info">© 2022 Your Travel Assistant. All rights reserved.</p>
     </div>
   </footer>
+
+  <script>
+    function myFunction() {
+      document.querySelector('.topnav').classList.toggle('responsive');
+    }
+  </script>
 
 
 </body>
