@@ -111,6 +111,7 @@ h1 {
 .title {
   font-size: 30px;
   color: black;
+  margin-bottom: 15px;
 }
 
 .about-texts {
@@ -417,23 +418,6 @@ body::after {
 }
 
 
-
-@media screen and (width <=768px) {
-
-  /* w:390px */
-  .container {
-    width: 100%
-  }
-
-  .topnav {
-    /*display: none;*/
-  }
-
-  a.icon {
-    display: block
-  }
-}
-
 @media screen and (width <=992px) {
 
   /* w:390px */
@@ -614,8 +598,6 @@ body::after {
     gap: 40px; 
   }
 
-  
-
   .review-img {
     width: 150px; 
     height: 150px;
@@ -636,11 +618,63 @@ body::after {
   .site-footer {
     padding: 50px 0;
   }
+  @media screen and (width <=768px) {
 
+  /* w:390px */
+  .container {
+    width: 100%
+  }
 
+  a.icon {
+    display: block
+  }
+  .sekce3, .sekce4, .sekce5, .sekce6, .footer-grid, .site-footer {
+    display: none;
+  }
+  
+  nav a.icon {
+    font-size: 40px; 
+  }
 
+  .sec1 {
+    min-height: 120vh; 
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end; 
+    padding: 0 20px 40px 0; 
+  }
+
+  .container-text {
+    width: auto;
+    max-width: 220px; 
+  }
+
+  h1 {
+    font-size: clamp(30px, 13vw, 50px); 
+  }
+  
+  .about-us {
+    flex-direction: column;
+  }
+
+  .about-us-text {
+    width: 100%;
+  }
+
+  .about-us-text h1.title {
+    font-size: clamp(25px, 7vw, 38px); 
+  }
+
+  .about-us-text p {
+    font-size: clamp(13px, 4vw, 16px);
+  }
+
+  .about-us-img {
+    width: 100%; 
+    height: clamp(250px, 60vw, 300px);
+  }
 
   
-
+}
 
 }
